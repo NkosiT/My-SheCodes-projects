@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>McFizz🥤</title>
+</head>
+<style>
+	h1 {
+	text-align: center;
+	color: #e87aba;
+	border: 2px solid #e87aba;
+	padding: 20px;
+	border-radius: 5px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+	img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+		border-radius: 5px;
+	}
+	p {
+		line-height: 1.5;
+		font-size: 15px;
+		font-weight: px;
+	}
+
+	button {
+		display: block;
+		margin: 23px auto;
+		background: #e87aba;
+		color: antiquewhite;
+		font-size: 20px;
+		padding: 10px 20px;
+		border-radius: 12px;
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+		transition: all 20ms ease-in-out;
+	}
+	button:hover {
+		opacity: 0.8;
+		cursor: pointer;
+		
+	}
+	.content {
+		background: linear-gradient(to bottom right,rgb(176, 230, 240),pink);
+		border-radius: 10px;
+		max-width: 350px;
+		margin: 0 auto;
+		padding: 30px 60px;
+		font-family: "Cerebri Sans", Arial, Helvetica, sans-serif;
+
+	}
+	a {
+		display: block;
+		margin-top: 20px;
+		color: #e87aba;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	.creator {
+		text-align: center;
+	}
+</style>
+<body>
+	<div class="content">
+	<h1>
+		Watermelon McFizz
+	</h1>
+	<h2>
+		McDonalds only
+	</h2>
+	<hr />
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzgf4SDfmnMxsW5rgxMipa6RaBeHZGI51Irw&usqp=CAU"
+	alt="Watermelon Mcfizz"
+	/>
+	<hr />
+	<p>
+		<strong>
+		McFizzes </strong>
+		 are cool and refreshing carbonated beverages perfect for the summer heat. They are served in a variety of vivid colours. The drinks are inspired by Sprite.
+	<br />
+	<a href="https://en.wikipedia.org/wiki/International_availability_of_McDonald%27s_products"
+	target="_blank">
+	👉Learn more on Wikipedia
+    </a>
+	
+	</p>
+	<button class="press">
+		Order your Watermelon McFizz
+	</button>
+	<p class="creator">
+		<em>
+	This page was built with 💗 by 
+	<strong>
+	Thokozile Nkosi
+	</strong>
+	</em>	
+	</p>
+</div>
+<script>
+	    document.querySelector(".press").addEventListener("click", press)
+		function press() {
+      let name = prompt('What is your name??');
+      if (name.length) {
+        alert("Thank you "+ name + ", we will be in touch. Meanwhile, order yourself a McFizz🥤")
+      } else {
+        alert("🙄No name, no McFizz for you!")
+      }
+    };
+</script>
+</body>
+</html>
